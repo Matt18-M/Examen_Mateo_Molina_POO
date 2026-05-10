@@ -10,7 +10,7 @@ public class ProvocarNullPointer {
 
 		
 		AdminVentas admin = new AdminVentas();
-		Vendedor v = new Vendedor("015056");
+		Vendedor v = new Vendedor("015056","V");
 		admin.agregar(v);
 	}
 

@@ -10,7 +10,7 @@ public class TestVendedorMixto {
 
 	@Test
 	void testCalculoMixto() {
-		VendedorMixto v = new VendedorMixto("01506");
+		VendedorMixto v = new VendedorMixto("01506","M");
 		v.setSueldoFijo(400);
 		v.setNumeroVentas(5);
 

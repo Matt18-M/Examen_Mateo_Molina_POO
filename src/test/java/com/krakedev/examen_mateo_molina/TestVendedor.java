@@ -7,7 +7,7 @@ public class TestVendedor {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Vendedor v = new Vendedor("015056");
+		Vendedor v = new Vendedor("015056","V");
 		v.setSueldoFijo(450);
 		
 		System.out.println(v);

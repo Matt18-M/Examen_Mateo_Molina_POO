@@ -9,7 +9,7 @@ public class TestVendedorComision {
 
     @Test
     void testCalculoComision() {
-        VendedorComision v = new VendedorComision("015056");
+        VendedorComision v = new VendedorComision("015056","C");
         v.setNumeroVentas(10);
         v.setComisionPorVenta(5);
 

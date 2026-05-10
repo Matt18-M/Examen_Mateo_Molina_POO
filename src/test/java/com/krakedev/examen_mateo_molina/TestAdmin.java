@@ -12,16 +12,16 @@ public class TestAdmin {
 		
 		AdminVentas admin = new AdminVentas();
 		
-		 Vendedor v1 = new Vendedor("11111");
+		 Vendedor v1 = new Vendedor("11111","V");
 	        v1.setSueldoFijo(650);
 	        v1.setNumeroVentas(3);
 	        v1.setComisionPorVenta(50);
 
-	        VendedorComision v2 = new VendedorComision("22222");
+	        VendedorComision v2 = new VendedorComision("22222","C");
 	        v2.setComisionPorVenta(150);
 	        v2.setNumeroVentas(10);
 
-	        VendedorMixto v3 = new VendedorMixto("33333");
+	        VendedorMixto v3 = new VendedorMixto("33333","M");
 	        v3.setSueldoFijo(700);
 	        v3.setNumeroVentas(7);	
 		

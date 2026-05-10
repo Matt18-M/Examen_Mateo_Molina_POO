@@ -10,7 +10,7 @@ public class TestCalcularSueldoJUnit {
 
 	@Test
     void testCalculoSueldo() {
-        Vendedor v = new Vendedor("015056");
+        Vendedor v = new Vendedor("015056","V");
         v.setSueldoFijo(500);
 
         assertEquals(500, v.calcularSueldo());
